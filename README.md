@@ -21,22 +21,22 @@ end
 
 ## new Defines  
 
-### class Enumerator
-### class Enumerator::Generator
-### class Enumerator::Yielder
-### class StopIteration < IndexError
-### method Kernel#to_enum
-### method Kernel#enum_for
+- class Enumerator
+- class Enumerator::Generator
+- class Enumerator::Yielder
+- class StopIteration < IndexError
+- method Kernel#to_enum
+- method Kernel#enum_for
 
 ## Redefines
 
-### method Kernel#loop
-### method Integral#times
-### method Array#each
-### method Hash#each
-### method Range#each
+- method Kernel#loop
+- method Integral#times
+- method Array#each
+- method Hash#each
+- method Range#each
 
-## How to add Enumerator with 
+## How to add Enumerator with Existing methods
 
 ```
 class Some
