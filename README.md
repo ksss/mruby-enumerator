@@ -53,6 +53,34 @@ class Some
 end
 ```
 
+## Installation
+
+### use github repository
+
+Write in /mruby/build_config.rb
+
+```ruby
+MRuby::Build.new do |conf|
+  conf.gem :github => 'ksss/mruby-enumerator', :branch => 'master'
+end
+```
+
+### or use mgem
+
+```
+mgem add mruby-enumerator
+```
+
+### build
+
+and exec in your /mruby.
+
+```
+rake clean
+rake
+rake test
+```
+
 ## License
 
 MIT
