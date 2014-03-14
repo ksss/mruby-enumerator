@@ -1,3 +1,8 @@
+# !!! NOTE !!!
+# It was merged into official
+
+===========================
+
 # mruby-enumerator
 
 Enumerator in mruby
@@ -19,7 +24,7 @@ p fib.take(10) #=> [1,1,2,3,5,8,13,21,34,55]
 end
 ```
 
-## new Defines  
+## new Defines
 
 - class Enumerator
 - class Enumerator::Generator
